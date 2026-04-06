@@ -14,6 +14,7 @@ body {
     margin: 0;
 }
 
+/*Main Page*/
 #title {
     width: 100%;
     box-sizing: border-box;
@@ -24,6 +25,15 @@ body {
 
 #personal-values {
     width: 60%;
+    margin: auto;
+    background: var(--secondary-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/*Industry Page*/
+#desc {
+    width: 95%;
     margin: auto;
     background: var(--secondary-color);
     border-radius: 5px;
@@ -76,7 +86,7 @@ a {
 }
 img {
     display: block;
-    width: 50%;
+    width: 500px;
     max-width: 100%;
     margin: auto;
     border-radius: 5px;
